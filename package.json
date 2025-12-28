@@ -1,0 +1,17 @@
+{
+  "name": "dailystats-on-tasks",
+  "version": "0.1.0",
+  "private": false,
+  "scripts": {
+    "dev": "esbuild src/main.ts --bundle --outfile=main.js --platform=browser --format=cjs --external:obsidian --external:path --sourcemap",
+    "build": "esbuild src/main.ts --bundle --minify --outfile=main.js --format=cjs --external:obsidian --external:path"
+  },
+  "dependencies": {
+    "obsidian": "0.12.16",
+    "obsidian-daily-notes-interface": "0.5.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.2",
+    "obsidian": "^1.5.0"
+  }
+}

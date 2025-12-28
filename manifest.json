@@ -1,0 +1,10 @@
+{
+  "id": "dailystats-on-tasks",
+  "name": "DailyStats on Tasks",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Calculate total and done tasks from notes in 'Project/' tagged #active-now and add the counts to Today's dailyNote",
+  "author": "theMage",
+  "authorUrl": "https://magicksource.eu/obsidian/dailystats-on-tasks/",
+  "isDesktopOnly": false
+}
