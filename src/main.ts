@@ -105,7 +105,7 @@ export default class ActiveNowPlugin extends Plugin {
   		if (!this.hasNoteTag(task.path, "#active-now")) continue;
 
   		total++;
-  		if (task.completed) {
+  		if (task.isDone) {
   			done++;
   		}
   	}
